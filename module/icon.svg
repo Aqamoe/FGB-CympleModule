@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" role="img" aria-label="Cymple Face Tracking">
+  <title>Cymple Face Tracking</title>
+  <desc>红外摄像头眼动模块图标：脸部轮廓上加两只带十字准星的瞳孔与传感器支架，透明背景，单色在中性灰度下对深色与浅色主题都可读。</desc>
+  <g fill="none" stroke="#8C97AC" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="64" cy="68" r="40" />
+    <circle cx="46" cy="58" r="10" />
+    <circle cx="82" cy="58" r="10" />
+    <path d="M46 52 v12" />
+    <path d="M40 58 h12" />
+    <path d="M82 52 v12" />
+    <path d="M76 58 h12" />
+    <path d="M46 86 c6 6 12 6 18 0" />
+    <path d="M28 34 h72" />
+    <path d="M36 34 v-10" />
+    <path d="M92 34 v-10" />
+  </g>
+</svg>

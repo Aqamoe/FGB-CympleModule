@@ -1,0 +1,15 @@
+{
+  "ModuleId": "com.fgbbridge.cymple",
+  "ModuleName": "Cymple Face Tracking",
+  "AuthorName": "Aqamoe (光水)",
+  "Version": "0.1.0",
+  "ModuleDescription": "接收 Cymple（Project Cymple）发到的 292 字节 UDP 包，输出注视方向、睁眼度、瞳孔扩张度与 Unified Expressions 表情。不需要 VRCFT，不注入进程。",
+  "UsageInstructions": "1. 在 Cymple PC 端开启对外输出，目标填这台 PC 的局域网 IP，端口默认 22999（如需改动，在模块目录 config.ini 写 port 后重启引擎，两边保持一致）。2. 关闭 VRCFaceTracking 的 Cymple 模块或其它接收端，它们和本模块抢同一个 UDP 端口。3. 在「模块」页把 Cymple Face Tracking 设为启动并重启引擎，模块卡片应显示活跃。本实现基于社区逆向核对的协议，社区未验证，数据准确性请自行对照确认。",
+  "ModulePageUrl": "https://github.com/Aqamoe/FGB-CympleModule",
+  "ModuleIcon": "icon.svg",
+  "DllFileName": "cymple.dll",
+  "AbiVersion": 2,
+  "Capabilities": ["expression", "eyes"],
+  "RoleHint": "expression",
+  "Upstream": "Dominocs/CympleFaceTracking"
+}
